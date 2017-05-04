@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 工厂
+namespace DesignModel.F
 {
     /*
     Factory：充当抽象工厂角色，任何具体工厂都必须继承该抽象类

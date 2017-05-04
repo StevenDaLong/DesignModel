@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 简单工厂
+namespace DesignModel.SF
 {
     /*
     优点

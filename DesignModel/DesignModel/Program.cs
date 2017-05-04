@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton
+namespace DesignModel
 {
     class Program
     {
@@ -14,20 +14,39 @@ namespace Singleton
             //Singleton.Instance.Say();
 
             //简单工厂
-            //简单工厂.Food tudou = 简单工厂.Factory.Create("tudou");
+            //SF.Food tudou = SF.Factory.Create("tudou");
             //tudou.Say();
-            //简单工厂.Food xihongshi = 简单工厂.Factory.Create("xihongshi");
+            //SF.Food xihongshi = SF.Factory.Create("xihongshi");
             //xihongshi.Say();
 
             //工厂模式
-            工厂.TudouFactory tudouFactory = new 工厂.TudouFactory();
-            工厂.XihongshiFactory xihongshiFactory = new 工厂.XihongshiFactory();
+            //F.TudouFactory tudouFactory = new F.TudouFactory();
+            //F.XihongshiFactory xihongshiFactory = new F.XihongshiFactory();
 
-            工厂.Food tudou = tudouFactory.Create();
-            tudou.Say();
+            //F.Food tudou = tudouFactory.Create();
+            //tudou.Say();
 
-            工厂.Food xihongshi = xihongshiFactory.Create();
-            xihongshi.Say();
+            //F.Food xihongshi = xihongshiFactory.Create();
+            //xihongshi.Say();
+
+            //抽象工厂
+            //AF.Factory wuhanF = new AF.WuHanFactory();
+            //AF.Factory shanghaiF = new AF.ShangHaiFactory();
+
+            //建造者模式
+            B.Director di = new B.Director();
+            B.Builder1 b1 = new B.Builder1();
+            B.Builder2 b2 = new B.Builder2();
+
+            var com1 = di.GetComputer(b1);
+            com1.Show();
+            var com2 = di.GetComputer(b2);
+            com2.Show();
+
+            //wuhanF.MakeYaBo().Say();
+            //wuhanF.MakeYajia().Say();
+            //shanghaiF.MakeYaBo().Say();
+            //shanghaiF.MakeYajia().Say();
 
             Console.ReadKey();
 

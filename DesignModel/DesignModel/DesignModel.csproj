@@ -7,8 +7,8 @@
     <ProjectGuid>{286190CE-6245-4987-8AC2-4A4BDF5233D4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Singleton</RootNamespace>
-    <AssemblyName>Singleton</AssemblyName>
+    <RootNamespace>DesignModel</RootNamespace>
+    <AssemblyName>DesignModel</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,6 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="工厂\Factory.cs" />
+    <Compile Include="建造者模式\Director.cs" />
+    <Compile Include="抽象工厂\Factory.cs" />
     <Compile Include="简单工厂\Food.cs" />
   </ItemGroup>
   <ItemGroup>
