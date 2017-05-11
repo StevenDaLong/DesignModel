@@ -77,19 +77,41 @@ namespace DesignModel
 
 
             //装饰者模式
-            ZS.Phone p = new ZS.Iphone();
-            p.Print();
-            WriteLine();
-            ZS.xiushi tp = new ZS.Tiemo(p);
-            tp.Print();
-            WriteLine();
-            ZS.xiushi gp = new ZS.Gjian(p);
-            gp.Print();
-            WriteLine();
+            //ZS.Phone p = new ZS.Iphone();
+            //p.Print();
+            //WriteLine();
+            //ZS.xiushi tp = new ZS.Tiemo(p);
+            //tp.Print();
+            //WriteLine();
+            //ZS.xiushi gp = new ZS.Gjian(p);
+            //gp.Print();
+            //WriteLine();
 
-            ZS.xiushi gtp = new ZS.Gjian(tp);
-            gtp.Print();
-            WriteLine();
+            //ZS.xiushi gtp = new ZS.Gjian(tp);
+            //gtp.Print();
+            //WriteLine();
+
+            //组合模式
+            //ZH.Obj a1 = new ZH.EasyObj("线1");
+            //ZH.Obj c1 = new ZH.EasyObj("圆1");
+            //ZH.Obj a2 = new ZH.EasyObj("线2");
+            //ZH.Obj a3 = new ZH.EasyObj("线3");
+            //ZH.MoreObj h1 = new ZH.MoreObj("复杂图");
+            //h1.Add(a1);
+            //h1.Add(a2);
+            //h1.Add(a3);
+            //h1.Add(c1);
+            //h1.Say();
+
+            //ZH.MoreObj h2 = new ZH.MoreObj("复杂图2");
+            //h2.Add(h1);
+            //h2.Add(a1);
+            //h2.Say();
+
+            //外观模式
+            WG.Bag bag = new WG.Bag();
+            bag.Xuanke("设计模式", "steven");
+
 
 
             Console.ReadKey();

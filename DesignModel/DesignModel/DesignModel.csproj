@@ -47,11 +47,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="原型模式\YX.cs" />
+    <Compile Include="外观模式\WG.cs" />
     <Compile Include="工厂\Factory.cs" />
     <Compile Include="建造者模式\Director.cs" />
     <Compile Include="抽象工厂\Factory.cs" />
     <Compile Include="桥接模式\QJ.cs" />
     <Compile Include="简单工厂\Food.cs" />
+    <Compile Include="组合模式\ZH.cs" />
     <Compile Include="装饰模式\ZS.cs" />
     <Compile Include="适配器模式\SPQ.cs" />
   </ItemGroup>
