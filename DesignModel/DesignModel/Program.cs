@@ -109,9 +109,36 @@ namespace DesignModel
             //h2.Say();
 
             //外观模式
-            WG.Bag bag = new WG.Bag();
-            bag.Xuanke("设计模式", "steven");
+            //WG.Bag bag = new WG.Bag();
+            //bag.Xuanke("设计模式", "steven");
 
+            //享元模式
+            //int i = 10;
+            //XY.Factory f = new XY.Factory();
+            //XY.AbShared a = f.Get("A");
+            //if (a != null)
+            //{
+            //    a.Operation(--i);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("no A");
+            //}
+
+            //XY.AbShared d = f.Get("D");
+            //if (d == null)
+            //{
+            //    XY.AbShared ad = new XY.Shared("D");
+            //    f.ht.Add("D", ad);
+            //    Console.WriteLine("finish Add");
+            //    XY.AbShared nd = f.Get("D");
+            //    if (nd != null)
+            //        nd.Operation(--i);
+            //}
+
+            //代理模式
+            DL.Person p1 = new DL.Friend();
+            p1.Buy("iphone");
 
 
             Console.ReadKey();
