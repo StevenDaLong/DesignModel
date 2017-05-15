@@ -137,9 +137,19 @@ namespace DesignModel
             //}
 
             //代理模式
-            DL.Person p1 = new DL.Friend();
-            p1.Buy("iphone");
+            //DL.Person p1 = new DL.Friend();
+            //p1.Buy("iphone");
 
+            //模板模式
+            //MB.ShuCai bocai = new MB.Bocai();
+            //bocai.CookFood();
+
+            //命令模式
+            ML.Student stu = new ML.Student();
+            ML.Mingling mingling = new ML.Pao(stu);
+            ML.Jiaoguan jiaoguan = new ML.Jiaoguan(mingling);
+
+            jiaoguan.Ex();
 
             Console.ReadKey();
 
