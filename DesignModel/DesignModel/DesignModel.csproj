@@ -59,6 +59,8 @@
     <Compile Include="简单工厂\Food.cs" />
     <Compile Include="组合模式\ZH.cs" />
     <Compile Include="装饰模式\ZS.cs" />
+    <Compile Include="观察者模式\GC.cs" />
+    <Compile Include="迭代器模式\DD.cs" />
     <Compile Include="适配器模式\SPQ.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -145,11 +145,29 @@ namespace DesignModel
             //bocai.CookFood();
 
             //命令模式
-            ML.Student stu = new ML.Student();
-            ML.Mingling mingling = new ML.Pao(stu);
-            ML.Jiaoguan jiaoguan = new ML.Jiaoguan(mingling);
+            //ML.Student stu = new ML.Student();
+            //ML.Mingling mingling = new ML.Pao(stu);
+            //ML.Jiaoguan jiaoguan = new ML.Jiaoguan(mingling);
+            //jiaoguan.Ex();
 
-            jiaoguan.Ex();
+            //迭代器模式
+            //DD.IList la = new DD.List();
+            //DD.IDieDai da = la.GetDiedai();
+            //while (da.MoveNext())
+            //{
+            //    Console.WriteLine(da.GetCurrent());
+            //    da.Next();
+            //}
+
+            //观察者模式
+            GC.IDy dy = new GC.Dy();
+            GC.IDy dy2 = new GC.Dy2();
+            GC.IZt zt = new GC.Zt();
+
+            dy.DingYue(zt);
+            dy2.DingYue(zt);
+            zt.Do();
+            
 
             Console.ReadKey();
 
